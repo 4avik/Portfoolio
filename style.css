@@ -63,7 +63,6 @@
     left: 50%;
     height: 2px;
     width: 0;
-    background: #dcb445;
     transition: width 0.5s ease 0s, left 0.5s ease 0s;
   }
 
@@ -71,8 +70,16 @@
     width: 100%;
     left: 0;
     content: "☆･⋆:ﾟ･";
-    color: #dcb445;
+    color: #f3ce68;
+    text-shadow: 0 0 5px #ffff66;
     background-image: linear-gradient(45deg, #eee87d, #341d88);
+  }
+
+  em {
+    color: #f3ce68;
+    font-style: normal;
+    text-shadow: 1px 1px 15px #a1a13c;
+    font-family: "Source Code Pro", monospace;
   }
   
   .nav1 {
@@ -123,6 +130,14 @@
     display: none;
   }
   
+  .box {
+    border: 2px solid blue;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 50px 20px 15px;
+  }
+
+
   @media screen and (max-width: 1020px) {
     .nav {
       display: none;

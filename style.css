@@ -40,12 +40,14 @@
     opacity: 0.9;
   }
   
-  a:link {
+  a {
+    color: #216e95;
     text-decoration: none;
   }
   
   a:visited {
     text-decoration: none;
+    color: none;
   }
   
   .nav a {
@@ -131,7 +133,7 @@
   }
   
   .box {
-    border: 2px solid #1b6990;
+    border: 2px solid #1b6990bb;
     border-radius: 15px;
     padding: 20px;
     margin: 20px 50px 20px 15px;
@@ -139,7 +141,10 @@
 
   .mylinks{
     text-align: center;
-    padding: 10px;
+  }
+
+  #MyGithub {
+    margin: 5px 3px 0 0;
   }
 
   @media screen and (max-width: 1020px) {

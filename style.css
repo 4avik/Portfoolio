@@ -137,7 +137,6 @@
     margin: 20px 50px 20px 15px;
   }
 
-
   @media screen and (max-width: 1020px) {
     .nav {
       display: none;
@@ -187,6 +186,10 @@
       border: none;
       box-shadow: none;
       padding: 0.5rem 1rem;
+    }
+
+    iframe {
+      width: inherit;
     }
   }
   
